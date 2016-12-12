@@ -51,7 +51,6 @@ namespace <#= rootNamespace #>.Interfaces
 }
 namespace <#= rootNamespace #>.Models
 {
-	[AutoRegister(Behaviour = AutoRegisterBehaviour.RegisterTypeOnly)]
 	public partial class <#= sourceContextName #> : I<#= sourceContextName #>
     {        
     }    
